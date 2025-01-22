@@ -39,7 +39,7 @@ MAIN_LOOP:
     xori t1, t1, 1<<LED
     sw t1, 0(t0)
 
-    li t2, 10000000
+    li t2, 100000
     loop:
     addi t2, t2, -1
     bnez t2, loop
