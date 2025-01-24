@@ -1,7 +1,7 @@
 .equ PORTB_BASE,  0x40010C00
 .equ PORTB_CRL,  (PORTB_BASE + 0x00) 
 .equ PORTB_OUTDR,  (PORTB_BASE + 0x0C)
-.equ LED, 0
+.equ LED, 2
 .equ GPIOOUT, 0b0011
 .equ RCC_BASE, 0x40021000
 .equ RCC_PB2_CLK, (RCC_BASE + 0x18) #был не тот адрес
